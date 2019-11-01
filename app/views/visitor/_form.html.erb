@@ -1,0 +1,17 @@
+<section id="cover">
+    <div id="cover-caption">
+        <div id="container1" class="container">
+                    <h1 class="display-10">DEMANDE DE CONTACT</h1>
+                    <div class="info-form">
+                        <%= form_for @visitor, url: visitor_index_path, html: {action: :post, class: "form-signin mt-3" } do |f| %>
+                            <div class="form-group">
+                            <%= f.text_field :email, autocomplete: "email", placeholder: "Adresse email", class: "form-control" %>
+                            </div>
+                            <div class="actions mt-5">
+                            <%= submit_tag "Valider", :class => 'w-100 btn btn-primary'  %>
+                          </div>
+                       <% end %>
+            </div>
+        </div>
+    </div>
+</section>

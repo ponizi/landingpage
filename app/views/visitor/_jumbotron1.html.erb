@@ -1,0 +1,30 @@
+
+<div class="jumbotron jumboindex py-2">
+    <div class="logowrap">
+      <img class="img-responsive" width="150px" height="" src="<%= asset_path( 'logo.svg' ) %>">
+    </div>
+    <section id="cover">
+    <div class="row">
+    <div class="container column" id="titlepage">
+    <h1>Netflix Gratuit.</br>Spotify Gratuit.</br>Ou du Cash.</br>Tout Simplement.</h1></div>
+        <div class="container column" id="form1">
+        <div class="formcontainer">
+        <div class="titleform">
+              </div>
+              </br> Entrez votre adresse mail pour être prévenu du lancement de Shomi
+              <div class="info-form">
+                  <%= form_for @visitor, url: visitor_index_path, html: {action: :post, class: "form-signin mt-3" } do |f| %>
+                      <div class="form-group">
+                      <%= f.text_field :email, autocomplete: "email", placeholder: "Adresse email", class: "form-control" %>
+                      </div>
+                      <div class="actions mt-5">
+                      <%= submit_tag "Valider", :class => 'btn btn-info btn-lg btn-block'  %>
+                    </div>
+                  <% end %>
+            </div>
+            </div>
+                
+      </div>
+    </section>
+  </p>
+</div>
