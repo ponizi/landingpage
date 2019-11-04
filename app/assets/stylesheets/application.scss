@@ -14,6 +14,11 @@
  *= require_self
  */
 
+ @font-face {
+  font-family: 'SourceSansPro';
+  src: font-url('SourceSansPro-Regular.otf') format('truetype');
+  }
+
  html {
   scroll-behavior: smooth;
 }
@@ -29,7 +34,7 @@
     padding-top: 30px;
   }
   .shopwrap {
-    background-color:#D5D5D5;
+    background-color:#F1F2F2;
     height: 400px;
   }
   .shopcontent {
@@ -68,7 +73,7 @@
     width: 100%;
   }
   .shopwrap {
-    background-color:#D5D5D5;
+    background-color:#F1F2F2;
     height: 800px;
   }
 
@@ -85,15 +90,20 @@
 
 }
 
-
+span.jumboemphaz {
+  color:#21D192;
+}
+span.titlejumb {
+  text-align: center !important;
+}
 #titlepage {
   text-align: right;
 
 }
 
 #titlepage h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-  color:#2F3640
+  font-family: 'Source Sans Pro', sans-serif;
+  color:#2F3640;
 }
 
 
@@ -103,8 +113,8 @@
 
 .btn.btn-info.btn-lg.btn-block {
   border-radius: 6px;
-  background-color:#2F3640;
-  opacity: 0.5;
+  background-color:#21D192;
+  border: none;
 }
 .titleform {
   text-align: center;
@@ -136,6 +146,7 @@
   color: black; 
   margin-bottom: 0px;
   width: 100%;
+  height: 75%;
   position: relative;
 }
 h1 {
@@ -174,10 +185,6 @@ h1 {
   padding: 24px;
 }
 
-.mdl-stepper-step:hover,
-.mdl-stepper-step:active {
-  background-color: rgba(0, 0, 0, .06);
-}
 
 .mdl-stepper-step:active {
   border-radius: 15% / 75%;
@@ -213,6 +220,9 @@ h1 {
   color: white;
 }
 
+.mdl-stepper-step.active-step:hover .mdl-stepper-circle {
+  background-color: #21D192;
+}
 .mdl-stepper-step.active-step .mdl-stepper-circle {
   background-color:#2F3640;
 }
@@ -249,6 +259,7 @@ h1 {
 .mdl-stepper-step .mdl-stepper-title,
 .mdl-stepper-step .mdl-stepper-optional {
   text-align: center;
+  
   color: rgba(0, 0, 0, .26);
 }
 
@@ -300,6 +311,7 @@ h1 {
 }
 .shoptitle h2 {
   font-size: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -320,4 +332,28 @@ h1 {
 }
 #step4 :hover {
   text-decoration: none;
+}
+
+h1,h2{
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+h3,h4,h5,h6,p{
+  font-family: arial, sans-serif;
+}
+
+#firstlinemenu {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#secondlinemenu {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.actions.mt-5 {
+  margin-top: 0px !important;
+}
+
+#firsttitle {
+  text-align: center;
 }
