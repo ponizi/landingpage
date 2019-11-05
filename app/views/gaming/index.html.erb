@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>V-Bucks et PSN Gratuit | Shomi</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <title>Netflix & Spotify Gratuit | Shomi</title>
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -11,9 +12,9 @@
     
   </head>
 
-  <body>
+<body>
 
-<%= render 'jumbotron1' %>
+<%= render 'jumbotron2' %>
 <%= render 'flash' %>
 <%= render 'menu' %>
 <%= render 'boutique' %>
@@ -23,6 +24,5 @@
 <%= render 'footer' %>
 <%= yield %>
 
-<%= yield %>
 </body>
 </html>
