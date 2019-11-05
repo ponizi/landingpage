@@ -26,6 +26,14 @@
   #titlepage {
     margin-right:37%;
   }
+
+  #form1 {
+    text-align: center;
+    width: 100%;
+    margin-left: 35%;
+    padding-top: 40px;
+    }
+
   .logowrap {
     padding-top: 30px;
   }
@@ -81,7 +89,11 @@
   .videoitem {
     text-align: center;
   }
-
+  #form1 {
+    text-align: center;
+    width: 100%;
+    }
+    
 
 
 }
@@ -351,9 +363,3 @@ h3,h4,h5,h6,p{
 #firsttitle {
   text-align: center;
 }
-#form1 {
-  text-align: center;
-  width: 100%;
-  margin-left: 35%;
-  padding-top: 40px;
-  }
