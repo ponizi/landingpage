@@ -52,6 +52,10 @@
   .videocontent {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      text-align: center;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-top: 60px;
   }
   .videoitem {
     text-align: center;
@@ -83,17 +87,36 @@
     margin-bottom: 50px;
   }
 
-  .videoitem {
+  .content {
     text-align: center;
   }
   #form1 {
     text-align: center;
     width: 100%;
     }
-    
+  .videoitem {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
+    }
+
+  #midl {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .videocontent {
+    background-color:white;
+    height: 500px;
+  }
+
 
 
 }
+
+
+
 span.justifyparag {
   text-align: justify;
 }
@@ -312,6 +335,7 @@ h1 {
 .shoptitle {
   text-align: center;
   padding: 50px;
+  padding-bottom: 0px;
 }
 .shoptitle h2 {
   font-size: 50px;
@@ -326,7 +350,7 @@ h1 {
   
 }
 
-.videoitem p {
+.videocontent p {
   font-size: 18px;
 }
 
@@ -363,7 +387,3 @@ h3,h4,h5,h6,p{
   margin-left: 5%;
 }
 
-.videofield {
-  background-color:white;
-  height: 350px;
-}
