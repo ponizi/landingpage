@@ -12,7 +12,6 @@ class VisitorController < ApplicationController
     @visitor = Visitor.new(first_name: visitor_params[:first_name], last_name: visitor_params[:last_name], phone_number: visitor_params[:phone_number], email: visitor_params[:email], message: visitor_params[:message])
    if @visitor.save
     flash[:success] = "Message Bien Envoyé !"
-    MainMailer.welcome_email(@visitor).deliver_now
    else
     flash[:danger] = "Message non remis : Adresse email manquante"
    end
