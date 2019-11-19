@@ -31,9 +31,6 @@ class VisitorController < ApplicationController
   def is_known
     a = 0
     Visitor.all.each {|visitor| visitor.email == @visitor.email ? a = 1 : a = 0 }
-      puts "*"*60
-      puts "#{a}"
-      puts "*"*60
     return a
   end
 
