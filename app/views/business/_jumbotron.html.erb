@@ -1,30 +1,12 @@
 
 <div class="jumbotron jumbpro py-2">
-    <section id="cover">
+  <section id="cover">
     <div class="row prowrap">
-    <div class="container column titlepro" id="titlepro"><h1>La publicité digitale capte seulement 20 % de l'attention de votre audience !</h1><hr class="title"></br><span class="subtitlepro"><strong>Shomi : Une délivrance pour votre audience trop souvent victime de campagnes agressives</strong></span></div>
-
-        <div class="container" id="formpro">
-        <div class="formcontainer">
-              </br> Formulaire de contact
-              <div class="info-form">
-                  <%= form_for @business, url: business_index_path, html: {action: :post, class: "form-signin mt-3" } do |f| %>
-                      <div class="form-group">
-                      <%= f.text_field :name, autocomplete: "name", placeholder: "Nom de l'entreprise", class: "form-control" %>
-                      </div>
-                      <div class="form-group">
-                      <%= f.text_field :phone_number, autocomplete: "phone_number", placeholder: "Numéro de téléphone", class: "form-control" %>
-                      </div>
-                      <div class="form-group">
-                      <%= f.text_field :email, autocomplete: "email", placeholder: "Adresse email", class: "form-control" %>
-                      </div>
-                      <div class="actions mt-5">
-                      <%= submit_tag "Valider", :class => 'btn btn-info btn-lg btn-block'  %>
-                    </div>
-                  <% end %>
-            </div>
-            </div>
-                
+      <div class="container column titlepro" id="titlepro"><h1>La publicité digitale capte seulement 20 % de l'attention de votre audience !</h1><hr class="title"></br><span class="subtitlepro"><strong>Shomi : Une délivrance pour votre audience trop souvent victime de campagnes agressives</strong></span>
+      </div>
+      <div class="imagewrap">
+    <img class="img-responsive screenapp" src="<%= asset_path( 'appscreen.png' ) %>">
+    </div>     
       </div>
     </section>
   </p>

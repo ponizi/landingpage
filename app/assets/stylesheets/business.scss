@@ -42,7 +42,7 @@
   margin-top: 7%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 12%;
+  margin-bottom: 5%;
 }
 .titlepro h1{
   color: white !important;
@@ -61,17 +61,31 @@ span.subtitle {
   margin-top: 10%;
 }
 
+.screenapp {
+  width: 240px;
+}
+.imagewrap {
+  text-align: center;
+}
 .navbar-nav {
   display: flex;
   justify-content: space-around;
   padding-left: 5%;
   padding-right: 15%;
 }
+.formwrap {
+  width: 100%;
+  background-color: #21D192;
+}
 #formpro {
   text-align: center;
   width: 80%;
-  height: 100%;
+  background-color: #21D192;
+  padding-bottom: 5%;
   }
+.btn-red {
+  background-color: #FF6A61 !important;
+}
 .navbarland {
   overflow: hidden;
   background: none;
@@ -111,6 +125,7 @@ hr.underline2 {
   text-align: center;
   padding-top: 9%;
   padding-bottom: 9%;
+  border-radius: 12px;
 }
 .card1:hover {
   color: #21D192;

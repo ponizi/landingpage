@@ -1,0 +1,23 @@
+<div class="formwrap">
+  <div class="container" id="formpro">
+    <div class="formcontainer">
+      </br> <h2>Contact</h2></br>
+      <div class="info-form">
+        <%= form_for @business, url: business_index_path, html: {action: :post, class: "form-signin mt-3" } do |f| %>
+          <div class="form-group">
+            <%= f.text_field :name, autocomplete: "name", placeholder: "Nom de l'entreprise", class: "form-control" %>
+          </div>
+          <div class="form-group">
+            <%= f.text_field :phone_number, autocomplete: "phone_number", placeholder: "Numéro de téléphone", class: "form-control" %>
+          </div>
+          <div class="form-group">
+            <%= f.text_field :email, autocomplete: "email", placeholder: "Adresse email", class: "form-control" %>
+          </div>
+          <div class="actions mt-5">
+            <%= submit_tag "Valider", :class => 'btn btn-info btn-lg btn-block btn-red'  %>
+          </div>
+          <% end %>
+        </div>
+      </div> 
+  </div>
+</div>
