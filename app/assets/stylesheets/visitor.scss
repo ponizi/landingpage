@@ -194,6 +194,21 @@ h1 {
 	}
 }
 
+.navlandmob {
+  height: 7%;
+  padding-left: 6%;
+  padding-right: 5%;
+  padding-top:20px;
+  padding-bottom: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+}
+.img-responsive.logoland {
+  width: 30%;
+}
+
 #map-canvas {
   	width: 100%; 
   	height: 300px;

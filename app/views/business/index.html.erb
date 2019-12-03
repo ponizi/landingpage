@@ -3,7 +3,7 @@
   <head>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <title>Shomi | Netflix & Spotify Gratuit</title>
+    <title>Shomi | Hyper-ciblage</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -12,13 +12,9 @@
   </head>
 
   <body>
-<%= render 'jumbotron1' %>
-<%= render 'flash' %>
-<%= render 'menu' %>
+<%= render 'navbar' %>
+<%= render 'jumbotron' %>
 <%= render 'boutique' %>
-<%= render 'video' %>
-<%= render 'questions' %>
-<%= render 'earn' %>
 <%= render 'footer' %>
 <%= yield %>
 

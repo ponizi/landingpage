@@ -6,6 +6,7 @@ ruby '2.5.1'
 gem 'sendgrid-ruby'
 gem 'letter_opener', :group => :development
 gem 'dotenv-rails'
+gem 'jquery-rails'
 
 
 

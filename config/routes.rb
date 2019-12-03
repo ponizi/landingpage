@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   root 'visitor#index'
   resources :gaming
   resources :newspaper
+  resources :business
 end
