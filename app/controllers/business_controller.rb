@@ -11,6 +11,7 @@ class BusinessController < ApplicationController
     @business = Business.new(business_params)
       if @business.save
       flash[:success] = "Nous avons reçu vos coordonnées, nous vous contacterons au plus vite"
+      MainMailer.business_email(@business).deliver_now
       else
       flash[:danger] = "Adresse email manquante"
 
