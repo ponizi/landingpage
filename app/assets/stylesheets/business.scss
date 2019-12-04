@@ -141,7 +141,11 @@ hr.underline2 {
   .screenapp {
     width: 200px;
   }
-
+  hr.title {
+    background-color: white;
+    height: 4px;
+    width: 100%;
+  }
   .jumbpro {
     background-image: image-url("jumbopro.svg");
     background-size: cover;
