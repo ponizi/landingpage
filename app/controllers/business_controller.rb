@@ -19,6 +19,6 @@ class BusinessController < ApplicationController
   end
 
   def business_params
-    params.require(:visitor).permit(:name,:phone_number,:email)
+    params.require(:business).permit(:name,:phone_number,:email)
   end
 end

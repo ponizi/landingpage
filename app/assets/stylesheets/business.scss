@@ -179,11 +179,19 @@ hr.underline2 {
     }
 
   .prodetail {
+    margin-top: 10%;
     padding-top: 25%;
     padding-left: 5%;
     padding-right: 5%;
   }
-
+  .navlandmob {
+    height: 80px !important;
+    padding-left: 7%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+  }
   hr.underline1 {
     background-color: #21D192;
     margin: 20px 0 30px;
@@ -246,5 +254,12 @@ hr.underline2 {
   }
   .btn-red {
     background-color: #FF6A61 !important;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 15%;
   }
 }
