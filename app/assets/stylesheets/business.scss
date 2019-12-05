@@ -13,6 +13,33 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
   
   }
+  .partners {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .partnerscontent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .partnerscontent img {
+    margin: auto;
+    display: block;
+  }
+
+  .stationf {
+    height: 50px;
+  }
+  .pepite {
+    height: 120px;
+  }
+  .partnerstitle {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 2%;
+  }
   span.subtitlepro {
   font-size: 18px;
   }
@@ -137,6 +164,37 @@ hr.underline2 {
 }
 
 @media (max-width: 768px) {
+
+  .partners {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .partnerscontent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .partnerscontent img {
+    margin: auto;
+    display: block;
+  }
+
+  .stationf {
+    height: 20px;
+  }
+  .pepite {
+    height: 50px;
+  }
+  .schoolab {
+    height: 60px;
+  }
+  .partnerstitle {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
 
   .screenapp {
     width: 200px;
